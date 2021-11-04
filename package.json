@@ -1,0 +1,28 @@
+{
+  "name": "upcebu-reservation",
+  "version": "1.0.0",
+  "description": "Application for UP Cebu facility reservation.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node -r esm app",
+    "dev": "env NODE_ENV=dev DEBUG=backend:* nodemon -r esm app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yul-max/upcebu-reservation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yul-max/upcebu-reservation/issues"
+  },
+  "homepage": "https://github.com/yul-max/upcebu-reservation#readme",
+  "dependencies": {
+    "debug": "^4.3.2",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "http": "^0.0.1-security",
+    "nodemon": "^2.0.14",
+    "path": "^0.12.7"
+  }
+}
